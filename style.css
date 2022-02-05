@@ -11,3 +11,15 @@ h1{
     font-weight: 700;
     
 }
+nav#menu{
+    text-shadow: 0 5px 0;
+    display: inline-block;
+    color: rgb(10, 218, 207);
+    font-family: arial;
+    font-size: 14;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    cursor:pointer
+  
+}
