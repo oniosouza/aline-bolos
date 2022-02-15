@@ -1,25 +1,543 @@
-body{
+html body{
+    margin: 0px;
+    padding: 0px;
     background-color: lightpink;
+    height: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
-    color: rgb(230, 73, 190);
-    text-shadow:6px 10px 1px;
-    margin-top: 0;
-    text-align: center;
-    font-family: Arial;
-    font-size: 100px;
-    font-weight: 700;
+    color: deeppink;
+    padding-left: 20%;
+    padding-top: -1%;
+    font-size: 500%;
+    text-decoration: underline;
     
 }
-nav#menu{
-    text-shadow: 0 5px 0;
-    display: inline-block;
-    color: rgb(10, 218, 207);
-    font-family: arial;
-    font-size: 14;
+#header ,img{
+    width: 200px;
+    right: 200px;
+    border-radius: 100px;
+    margin-top: -15%;
+    margin-left: 10px;
+}
+button {
+    display: inline;
     text-transform: uppercase;
-    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 35px;
+    background-color: deeppink;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin-top: -15px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.insta{
+    position: absolute;
+    width: 40px;
+    margin-right: 160px;
+    margin-top: -8px;
+    border-radius: 1px;
+}
+
+.whats{
+    position: absolute;
+    width: 40px;
+    margin-right: 60px;
+    margin-top: -8px;
+    border-radius: 1px;
+}
+.face{
+    position: absolute;
+    width: 40px;
+    margin-right: -30px;
+    margin-top: -8px;
+    border-radius: 1px;
+}
+.boloamores{
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: 45px;
+    margin-right: 1020px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -3px;
+    
+}
+.linhabaixo{
+    margin-top: 15px;
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 185px;
+        
+}
+.linhahorizontal{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+ 
+.quarteresc{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 1145px;
+    margin-top: -1px;
+}
+.foto2{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto3{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+    
+}
+.foto4{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto5{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 1145px;
+    margin-top: -1px;
+    
+}
+.foto6{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto7{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+    
+}
+.foto8{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto9{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 1145px;
+    margin-top: -1px;
+    
+}
+.foto10{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto11{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+    
+}
+.foto12{
+    height: 2px;
+    width: 961px;
+    background-color: aqua;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+.foto13{
+    height: 110px;
+    width: 2px;
+    background-color: aqua;
+    margin-left: 1145px;
+    margin-top: -1px;
+    
+}
+.maracuja{
+    position: absolute;
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: -20px;
+    margin-right: -100px;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -5px;
+}
+.limao{
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: 75px;
+    margin-right: 1020px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -3px;
+}
+.chocobola{
+    position: absolute;
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: 200px;
+    margin-right: -100px;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -5px;
+}
+.ameixa{
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: 300px;
+    margin-right: 1025px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -3px;
+}
+.bolosimples{
+    width: 150px;
+    right: 150px;
+    border-radius: 900px;
+    margin-top: 420px;
+    margin-right: -100px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -3px;
+}
+.paodelicia{
+    width: 150px;
+    right: 150px;
+    border-radius: 100px;
+    margin-top: 530px;
+    margin-right: 1025px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -6px;
+}
+.paodoce{
+    width: 150px;
+    right: 150px;
+    border-radius: 900px;
+    margin-top: 635px;
+    margin-right: -100px;
+    position: absolute;
+    outline-width: 6px;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-offset: -5px;
+}
+
+
+.p1{
+    color: deeppink;
+    position: absolute;
+    margin-top: -225px;
+    margin-left: 195px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: left;
+    font-weight: bold;
+}
+.p2{
+    color: deeppink;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 980px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.p3{
+    color: deeppink;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 195px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: left;
+    font-weight: bold;
+}
+.p4{
+    color: deeppink;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 935px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.p5{
+    color: deeppink;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 195px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: left;
+    font-weight: bold;
+}
+.p6{
+    color: deeppink;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 1020px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.p7{
+    color: deeppink;
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 195px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: left;
+    font-weight: bold;
+}
+.p8{
+    color: deeppink;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 985px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.p1a{
+    color: white;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 195px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    
+}
+.p1b{
+    color: white;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 740px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right
+}
+.p1c{
+    color: white;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 200px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+.p1d{
+    color: white;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 905px;
+    text-decoration: underline;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+.p1e{
+    color: white;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 200px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+.p1f{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1050px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+.p1g{
+    color: white;
+    position: absolute;
+    margin-top: 465px;
+    margin-left: 200px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+.p1h{
+    color: white;
+    position: absolute;
+    margin-top: 585px;
+    margin-left: 1015px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+
+.num{
+    width: 64px;
+    right: 67px;
+
+}
+.text{
+    
+    width: 160px;
+    right: 26;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+input{
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 25%;
+}
+.blue{
+    background-color: blue;
+}
+.pin{
+    background-color: deeppink;
+}
+.gre{
+    background-color: chartreuse;
+}
+.pur{
+    background-color: aqua;
+}
+.ora{
+    background-color: chocolate;
+}
+
+.main{
+    display: inline-block;
+    width: 100%;
+    right: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deeppink;
+    margin-top: 20px;
+
+}
+.maincolor{
+    background-color: black;
+}
+.use{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px ;
+}
+.rodape{
+    background-color: rgb(43, 233, 233);
+    flex-shrink: 0;
     padding: 10px;
-    cursor:pointer
-  
+    margin-bottom: 2px;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    
 }
